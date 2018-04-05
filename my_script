@@ -1,0 +1,26 @@
+#box mesh
+box
+0 0 0 200 100 200
+ident
+move
+70 150 0
+apply
+display
+#sphere mesh
+sphere
+200 310 0 50
+ident
+apply
+display
+#torus mesh
+torus
+200 210 0 25 100
+ident
+apply
+display
+rotate
+x 10
+rotate
+y -20
+apply
+display
