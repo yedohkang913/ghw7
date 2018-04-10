@@ -139,7 +139,7 @@ double r, int step ) {
 	latStart = 0;
 	latStop = step;
 	longStart = 0;
-	longStop = step;
+	longStop = step - 1;
 
 	step++;
 	for ( lat = latStart; lat < latStop; lat++ ) {
